@@ -10,7 +10,7 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___Controller: UIViewController {
 
-    @IBOutlet var theView : ___FILEBASENAMEASIDENTIFIER___!
+    @IBOutlet var designableView : ___FILEBASENAMEASIDENTIFIER___!
 //    var bottomButtonCallBack: (Void -> Void)!
 
     override func viewDidLoad() {
@@ -21,9 +21,9 @@ class ___FILEBASENAMEASIDENTIFIER___Controller: UIViewController {
     
 
     func createViewModel() {
-        let viewModel = ___FILEBASENAMEASIDENTIFIER___Model()
+        var viewModel = ___FILEBASENAMEASIDENTIFIER___Model()
 //      viewModel.bottomButtonCallBack = bottomButtonCallBack
-        self.theView.model = viewModel
+        self.designableView.model = viewModel
     }
 
 
